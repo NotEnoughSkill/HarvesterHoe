@@ -1,0 +1,34 @@
+name: HarvesterHoe
+version: '1.0-SNAPSHOT'
+main: me.notenoughskill.harvesterhoe.HarvesterHoe
+api-version: '1.20'
+commands:
+  harvesterhoe:
+    description: Main command for the Harvester Hoe plugin
+  tokens:
+    description: Command for managing tokens
+permissions:
+  harvesterhoe.give:
+    description: Permission to give Harvester Hoe
+    default: op
+  harvesterhoe.reload:
+    description: Permission to reload the plugin configuration
+    default: op
+  harvesterhoe.tokens.reset:
+    description: Permission to reset a player's tokens
+    default: op
+  harvesterhoe.tokens.resetall:
+    description: Permission to reset all players' tokens
+    default: op
+  harvesterhoe.tokens.pay:
+    description: Permission to pay tokens to another player
+    default: true
+  harvesterhoe.tokens.give:
+    description: Permission to give tokens to a player
+    default: op
+  harvesterhoe.tokens.remove:
+    description: Permission to remove tokens from a player
+    default: op
+  harvesterhoe.tokens.set:
+    description: Permission to set a player's token balance
+    default: op
